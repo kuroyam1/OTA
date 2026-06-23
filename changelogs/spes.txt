@@ -1,0 +1,38 @@
+This is Android 16 QPR2 with June 2026 security patches
+
+Notes:
+==============================
+- LineageOS-based source. Signed build.
+- Clean flash mandatory when your build is from Evolution X 8 or lower
+
+Device changes:
+==============================
+- Update to Evolution X 11.6.2
+
+Notable ROM changes:
+==============================
+Evolver: Extend volume slider modes
+Revert "release: disable new dozing keyguard states"
+Evolver: TrickyStore: Fix keybox revocation check always returning VALID
+Increase BINDER_VM_SIZE from 1MB to 4MB
+CameraService: Add OnePlus camera extension support for zoom
+Evolver: Drop ongoing progress chip
+New Crowdin updates (#29)
+New translations (#150)
+Settings: Hardcode Settings icon color in launcher
+camera: bypass roundBufferDimensionNearest for Y16
+OmniJaws: Improve UI for detail cards
+OmniJaws: Fix hourly forecast card curve
+Revert "build: Erase resource-cache upon flashing"
+recovery: Add support for analog dpad
+Partial Reapply "LineagePreferenceLib: Ensure the preference is available before replacing"
+Automatic translation import
+LineageParts: Update LiveDisplay color profiles to match AOSP
+Automatic translation import
+Settings: Add a preference for LiveDisplay display profiles
+Automatic translation import
+OmniJaws: Fix issues and improve sunrise / sunset card
+Health: poll battery on the awake interval despite epoll events
+MediaProvider: Gate verbose picker DB failure logging behind isLoggable
+thermal: increase Thermal HAL uevent buffer
+Allow init and vendor_init to access proc_type
