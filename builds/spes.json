@@ -2,7 +2,7 @@
   "response": [
     {
       "maintainer": "Kuro",
-      "currently_maintained": true,
+      "currently_maintained": false,
       "oem": "Xiaomi",
       "device": "Redmi Note 11",
       "filename": "EvolutionX-16.0-20260622-spes-11.8-Unofficial.zip",
@@ -13,6 +13,7 @@
       "size": 2227896036,
       "version": "11.8",
       "buildtype": "user",
+      "forum": "",
       "firmware": "",
       "paypal": "",
       "github": "kuroyam1",
